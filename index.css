@@ -1,0 +1,341 @@
+
+body {
+    top: 0px;
+left: 0px;
+width: 1366px;
+height: 600px;
+
+background: var(--unnamed-color-3d087b) 0% 0% no-repeat padding-box;
+background: #721cd5 0% 0% no-repeat padding-box;
+opacity: 1;
+width: 100%;
+}
+
+.img1 {
+    position: relative;
+    top: 34px;
+    left: 124px;
+    width: 204px;
+    height: 77px;
+
+    background: transparent url(./clock_logo.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.time-table {
+    padding: 15px 30px;
+    position: absolute;
+    top: 149px;
+    left: 124px;
+    width: 566px;
+    height: 285px;
+  
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.time-table-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr 6fr;
+    margin: 10px 0px;
+}
+
+.box1 {
+    position: absolute;
+    height: 70px;
+    top: 475px;
+    left: 124px;
+    width: 630px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    opacity: .3;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) 27px/34px var(--unnamed-font-family-bauhaus-hv-bt);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal 900 27px/34px Bauhaus Hv BT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    
+}
+
+h3  {
+    width: 600px;
+    text-align: left;  
+    position: relative;
+    left: 150px; 
+    top: 380px;
+
+    font-family: 'Righteous', cursive;
+
+    text-align: left;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 27px;
+    /* opacity: 1; */
+}
+
+
+.alarm {
+    position: relative;
+    top: 124px;
+    left: -32px;
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+    background-image: linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+    color: white;
+    border: solid 1px #700ee1;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.fix1 {
+    width: 200px;
+    position: relative;
+    top: 227px;
+    left: 480px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #F25CFE;
+    
+}
+
+.box2 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: relative;
+    top: 337px;
+    left: 460px;
+    background-color: lightgray;
+    width: 285px;
+    opacity: .3;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.time {
+    background-color: #3d087b;
+    width: 566px;
+    position: relative;
+    left: 760px;
+    bottom: 390px; 
+    border-radius: 10px;
+}
+
+.sp {
+    position: relative;
+    bottom:30px;
+    left: 15px;
+    margin-right: 80px;
+    margin-left: 30px;
+    font-size: 22px;
+    color: #3D087B;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.digits {
+    position: relative;
+    bottom: -2px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+    width: 60px;
+    height: 70px;
+    background-color: #d5a7ea;
+}
+
+.digits1 {
+    background: transparent url(./AM_svg.svg) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    bottom: 30px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 0;
+
+    width: 60px;
+    height: 70px;
+}
+
+
+.fix3 {
+    position: relative;
+    bottom: 1px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    font: normal normal normal Barlow;
+    letter-spacing: 0px;
+    color: #8A11BF;
+    opacity: 1;
+}
+
+.fix4 {
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    font: normal normal normal Barlow;
+    letter-spacing: 0px;
+    color: #5F0089;
+    opacity: 1;
+}
+
+.fix5 {
+    position: relative;
+    bottom:35px;
+    font-size: 22px;
+    font-weight: 700;
+   
+}
+
+.fix6 {
+    bottom: 13px;
+    text-align: center;
+    font-size: 30px;
+    background: transparent url(./AM_svg.svg) 0% 0% no-repeat padding-box;
+}
+
+.fix7 {
+    position: relative;
+    bottom: 15px;
+    font: normal Barlow;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.clock {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.second {
+    position: relative;
+    z-index: 1;
+    width: 450px;
+    height: 100px;
+    background-color: white;
+    opacity: 0.6;
+    left: 60px;
+    bottom: 85px;
+    border-radius: 10px;
+}
+.third {
+    position: relative;
+    z-index: 0;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    opacity: 0.2;
+    left: 110px;
+    bottom: 170px;
+    border-radius: 10px;
+}
+
+.box04 {
+    background-color: white;
+    position: relative;
+    left: 760px;
+    bottom: 575px;
+    width: 570px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.fix08 {
+    padding-top: 34px;
+    text-align: center;
+    font-size: 28px;
+    color: #8e53f0;
+    font-weight: 800;
+    font-family: 'Fredoka One', cursive;
+    font-size: 27px;
+}
+
+.alarm1 {
+    position: relative;
+    top: 388px;
+    left: 113px;
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+    background-image: linear-gradient(113deg, #F1A7C5 0%,#FC5EFF  60%, #6E54EC 100%);
+    color: white;
+    border: solid 1px #3D087B;
+    border-radius: 8px;
+    z-index: 0;
+}
+
+.picture {
+    position: relative;
+    left: 760px;
+    bottom: 560px;
+    background-image: url(./vika.svg);
+    background-size: cover;
+    width: 570px;
+    height: 338px;
+    border-radius: 10px;
+}
+
+.line {
+    position: relative;
+    left: 16px;
+    margin: 8px 0;
+    padding: 0;
+    border-left: 1px rgb(192, 189, 189) solid;
+}
+
+.formFix {
+    position: relative;
+    top: 15px;
+}
+
+.imgfix {
+    position: relative;
+    top: 10px;
+}
+
+select {
+    position: absolute;
+    left: 230px;
+    
+    width: 300px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    color: #3D087B; 
+}
+
+label {
+    position: relative;
+    top: -10px;
+    width: 200px;
+    color: #3D087B;
+}
+
+.alarm1 {
+    visibility: hidden;
+}
+
+.alarm:hover {
+    background-image: linear-gradient(293deg,  #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+    font-size: 0;
+    
+}
+
+.alarm:hover::after {
+    font-size: 20px;
+    content: "Party Time!";
+}
